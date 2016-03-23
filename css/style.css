@@ -1,0 +1,658 @@
+/*****clearfix*****/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  zoom: 1; /* ie 6/7 */
+}
+
+/*****STANDARDS*****/
+
+body{
+	background-color: #2f3239;
+	color: #fff;
+	font-family: 'Amiri', serif;
+}
+
+.outer_container{
+	background-color: #23262d;
+}
+
+.wrapper{
+	margin: 0 auto;
+	padding: 3%;
+	position: relative;
+}
+
+a{
+	text-decoration: none;
+	color: #fff;
+}
+
+a:hover{
+	color: #87130a;
+	font-weight: bold;
+}
+
+a:active{
+	color: #7ebbc8;
+}
+
+ul{
+	padding-left: 0;
+}
+
+li{
+	list-style: none;
+}
+
+h2{
+	font-family: 'Cinzel Decorative', cursive;
+	font-size: 1.2em;
+}
+
+.button {
+    display: block;
+    padding: 10px 30px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    background: linear-gradient(#b21006, #750905);
+    max-width: 170px;
+}
+
+.button:hover{
+	color: #000;
+	font-weight: bold;
+}
+
+/*****HEADER*****/
+
+header{
+	position: relative;
+}
+
+header img{
+    position: absolute;
+    top: -75px;
+    left: 55px;
+    width: 180px;
+}
+
+.top_nav{
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight: 700;
+	margin-top: 80px;
+	margin-bottom: 10px;
+	font-size: .7em;
+}
+
+.top_nav li{
+	padding: 10px 5px;
+	display: inline-block;
+}
+
+.top_nav ul{
+	padding-left: 0;
+	margin: 0;
+}
+
+.top_nav a{
+	padding: 8px;
+}
+
+/*****FOOTER*****/
+
+footer{
+	background-color: #fff;
+	font-weight: bold;
+	color: #2f3239;
+	padding: 10px;
+}
+
+footer li{
+	margin: 0 0 10px 5px;
+}
+
+footer p{
+	margin: 0;
+}
+
+footer a{
+	color: #2f3239;
+}
+
+.social_nav{
+	margin-bottom: 0;
+}
+
+.social_nav p, .social_nav a{
+	display: inline-block;
+}
+
+.social_nav p{
+	margin: 0 15px 0 0;
+}
+
+.social_nav a{
+	vertical-align: top;
+	margin-right: 20px;
+}
+
+/***************INDEX***************/
+
+/*****SLIDER*****/
+
+.slider{
+	position: relative;
+	margin-bottom: 15px;
+}
+
+.image_container{
+	margin: 0 auto 10px auto;
+	overflow: hidden;
+	position: relative;
+	z-index: 20;
+}
+
+.image_container div{
+	width: 300%;
+	position: relative;
+}
+
+.image_container div.one{
+	left: 0;
+}
+
+.image_container div.two{
+	left: -100%;
+}
+
+.image_container div.three{
+	left: -200%;
+}
+
+.image_container img{
+	width: 33.333%;
+	display: block;
+	padding: 0;
+	margin: 0;
+	float: left;
+	z-index: -1;
+}
+
+.show_title{
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+	position: absolute;
+	z-index: 50;
+	top: 10%;	
+	width: 100%;
+}
+
+
+.show_title h1{
+	font-size: 3em;
+}
+
+.show_title a{
+	color: #b21006;
+	display: block;
+	position: relative;
+}
+
+.show_title span{
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 25px;
+}
+
+
+
+#text_span{
+	font-size: .25em;
+	color: #fff;
+}
+
+.controls{
+	text-align: center;
+}
+
+.controls a{
+	height: 15px;
+	width: 15px;
+	display: inline-block;
+	border-radius: 50%;
+	margin-right: 30px;
+	background-color: rgba( 255, 255, 255, 0.4);
+	color: #fff;
+	text-decoration: none;
+}
+
+.controls a:last-child{
+	margin-right: 0;
+}
+ 
+
+/*****FOLLOW US*****/
+
+.follow_us{
+	background-color: #2f3239;
+	text-align: center;
+	padding: 10px 10px 5px 10px;
+	margin-bottom: 40px;
+}
+
+.follow_us h2{
+	margin: 0 0 10px 0;
+}
+
+.follow_us a{
+	margin-left: 30px;
+}
+
+.follow_us a:nth-child(2){
+	margin-left: 0;
+}
+
+/*****INTRO*****/
+
+.intro{
+	margin-bottom: 30px;
+}
+
+#dreams_poster{
+	display: none;
+}
+
+.intro h2{
+	text-align: center;
+	margin-top: 0;
+}
+
+.intro img{
+	width: 100%;
+}
+
+
+.intro p{
+	text-align: center;
+}
+
+/*****ACTS*****/
+
+.acts ul{
+	float: left;
+	width: 50%;
+	margin: 0;
+}
+
+.acts ul:last-child{
+	text-align: right;
+}
+
+.acts h2{
+	text-align: center;
+}
+
+.acts{
+	margin-bottom: 30px;
+}
+
+/******PAST SHOWS******/
+
+
+.past_shows h2{
+	text-align: center;
+}
+
+.past_shows{
+	margin-bottom: 30px;
+}
+
+/****************CURRENT SHOW****************/
+
+main{
+	background-color: #1b1d22;
+}
+
+.box{
+	font-family: 'Anton', sans-serif; 
+	color: red;
+	text-transform: uppercase;
+}
+
+.tickets{
+	margin-bottom: 30px;
+}
+
+.tickets img{
+	width: 100%;
+}
+
+.tickets h2{
+	margin: 0 0 30px 0;
+	text-align: center;
+}
+
+.tickets ul{
+	margin: 0;
+}
+
+.online h2{
+	font-size: .9em;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+.door h2{
+	font-size: .9em;
+	text-align: left;
+	margin-bottom: 5px;
+}
+
+@media screen and (min-width: 460px){
+
+	.show_title{
+		top: 25%;
+	}
+
+	.controls{
+		float: left;
+	}
+
+	.controls a{
+		margin-right: 10px;
+	}
+
+	.button{
+		margin: 0;
+	}
+
+	.button1{
+		margin: 0 0 30px 0;
+		float: right;
+		width: 50%;
+	}
+
+	.follow_us{
+		padding: 20px;
+	}
+
+	.follow_us h2{
+		float: left;
+		margin-left: 19%;
+		margin-right: 40px;
+	}
+
+	.follow_us a{
+		float: left;
+		margin-left: 15px;
+	}
+
+	.intro img{
+		display: none;
+	}
+
+	.intro h2{
+		text-align: left;
+	}
+
+	.intro p{
+		text-align: left;
+	}
+
+	.acts h2{
+		text-align: left;
+	}
+
+	.acts li{
+		text-align: left;
+	}
+
+	.past_shows h2{
+		text-align: left;
+	}
+
+}
+
+@media screen and (min-width: 600px){
+	
+
+	.show_title{
+		top: 20%;
+	}
+
+	/*.show_title a{
+		&&&&&&need to adjust the span and the h1
+		
+	}*/
+
+	.show_title h1{
+		font-size: 5em;
+	}
+
+	.logo2{
+		display: none;
+	}
+
+	.tickets img{
+		display: none;
+	}
+
+	.tickets h2{
+		text-align: left;
+	}
+
+	.top_nav{
+		margin: 0 0 10px 0;
+	}
+
+	header img{
+		top: 85px;
+		left: 15px;
+		z-index: 100;
+	}
+
+	.follow_us h2{
+		margin-left: 25%;
+	}
+
+	.intro{
+		position: relative;
+		padding: 15px;
+		z-index: 1;
+		background-color: #000;
+		background-image: url(../img/images/dreams3.jpg);
+		background-size: cover;
+		background-position: right center;
+		background-repeat: no-repeat;
+	}
+
+	.intro h2{
+		margin: 0 5%;
+		padding-top: 3%;
+	}
+
+	.intro p{
+		width: 45%;
+		margin-left: 5%;
+	}
+
+	.button2{
+		margin-left: 5%;
+	}
+
+	.online, .vip{
+		float: left;
+		width: 47%;
+		margin-right: 3%;
+	}
+
+	footer{
+		padding: 5% 12%;
+	}
+
+}
+
+@media screen and (min-width: 750px){
+	
+	.show_title span{
+		top: 45px;
+	}
+
+	.wrapper{
+		width: 85%;
+		margin: 0 auto;
+	}
+
+	.acts{
+		float: left;
+		width: 45%;
+		margin-right: 10%;
+	}
+
+	.past_shows{
+		float: left;
+		width: 45%;
+	}
+
+	.tickets h2:nth-child(2){
+		text-align: left;
+		font-size: 1.5em;
+	}
+
+	.online, .vip, .door{
+		float: left;
+		width: 30%;
+		margin-right: 3%;
+	}
+
+	.door{
+		margin-top: 0;
+	}
+
+	.door h2, .online h2{
+		margin-bottom: 15px;
+	}
+
+	.vip{
+		margin-top: 20px;
+	}
+
+	main{
+		height: 819px;
+		position: relative;
+		margin-bottom: 30px;
+	}
+
+	.bg{
+		background-image: url(../img/images/layer_1.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		width: 100%;
+		height: 819px;
+		z-index: 1;
+	}
+
+	.bgtonedown{
+		background-color: rgba(0, 0, 0, .7);
+		position: absolute;
+		width: 100%;
+		height: 819px;	
+		z-index: 2;
+	}
+
+	.bg2{
+		background-image: url(../img/images/layer_2.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		width: 100%;
+		height: 819px;
+		z-index: 3;
+	}
+
+	.bg3{
+		background-image: url(../img/images/layer_3.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+		position: absolute;
+		width: 100%;
+		height: 819px;
+		z-index: 4;
+	}
+
+	.intro{
+		padding: 20px;
+		background-size: contain;
+	}
+
+	.intro p{
+		width: 60%;
+	}
+}
+
+@media screen and (min-width: 850px){
+	.intro{
+		background-size: cover;
+		height: 350px;
+	}
+
+	.intro p{
+		width: 50%;
+	}
+}
+
+@media screen and (min-width: 1080px){
+	
+	.outer_container{
+		width: 76%;
+		margin: 0 auto;
+	}
+
+	.wrapper{
+		width: 75%;
+		margin: 0 auto;
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
